@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Chewie</id>
+    <version>2.0.0-beta00</version>
+    <authors>Ang3lFir3,idavis</authors>
+    <owners>Ang3lFir3,idavis</owners>
+    <projectUrl>http://github.com/Ang3lFir3/Chewie/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Giving Nuget some of the awesomeness of Bundler for ruby gems. This package should be installed only from Chocolatey or Visual Studio. Running with NuGet.exe will not execute the proper PowerShell scripts needed for installation.</description>
+    <tags>Nuget Bundler Chewie</tags>
+  </metadata>
+</package>

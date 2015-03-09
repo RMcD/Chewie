@@ -1,9 +1,6 @@
-source 'http://random.org'
 install_to 'lib'
 
-chew 'ninject' '2.0.1.0'
-chew 'nunit'
-chew 'random' -v '1.0.0' -s 'http://nuget.org' 
-chew 'random' -version '1.0.0' -source 'http://nuget.org'
-
-chocolate 'console2' 
+new-group dev {
+  chew 'Pester' '[1.0.6]'
+  chew 'psake' '[4.2.0.1]'
+}
